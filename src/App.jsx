@@ -1,16 +1,20 @@
-import { useState } from "react";
-
 import "./App.css";
-
+import EmployeeList from "./Component/EmployeeList";
+import SearchBar from "./Component/SearchBar";
+import SideBar from "./Component/SideBar";
+import TopBar from "./Component/TopBar";
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
-		<>
-			<div className='text-3xl text-yellow-300 font-black font-bold'>
-				hello shree Radha
+		<div className='flex'>
+			<SideBar />
+			<div className='flex flex-col w-full'>
+				<TopBar />
+				<SearchBar />
+				<div className='flex'>
+					<EmployeeList />
+				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 
