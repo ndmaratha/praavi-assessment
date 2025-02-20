@@ -16,10 +16,10 @@ const SearchBar = () => {
 					<HiAdjustments />
 					<span>Filter</span>
 				</div>
-				<div className='border rounded-full border-[#D6D6D6] p-1 w-full sm:w-[80px] font-bold text-center flex items-center justify-center'>
+				<div className='border rounded-full bg-[#FFFFFF] border-[#D6D6D6] p-1 w-full sm:w-[80px] font-bold text-center flex items-center justify-center'>
 					Rows <RiArrowDropDownLine className='text-2xl' />
 				</div>
-				<div className='border rounded-full border-[#D6D6D6] p-1 w-full sm:w-[80px] font-bold text-center flex items-center justify-center'>
+				<div className='border rounded-full bg-[#FFFFFF] border-[#D6D6D6] p-1 w-full sm:w-[80px] font-bold text-center flex items-center justify-center'>
 					July <RiArrowDropDownLine className='text-2xl' />
 				</div>
 			</div>

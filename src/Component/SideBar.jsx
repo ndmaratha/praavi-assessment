@@ -6,7 +6,7 @@ import { ImSwitch } from "react-icons/im";
 
 const SideBar = () => {
 	return (
-		<div className='flex flex-col items-center  gap-30 bg-[#323FDD] w-[96PX] h-screen'>
+		<div className='flex flex-col items-center  gap-30 bg-[#323FDD] w-[96PX] h-auto'>
 			<div className=' flex flex-col gap-5 '>
 				<div className='text-[#FFFFFF] text-3xl  m-5 p-1 text-center'>P</div>
 				<div className='border-[#FFFFFF] border '></div>

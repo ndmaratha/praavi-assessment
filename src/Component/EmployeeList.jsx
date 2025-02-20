@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const EmployeeList = () => {
 	const [employeeList, setEmployeeList] = useState(Array(6).fill(0));
 	return (
-		<div className='w-[225px] h-[729px] border bg-[#FFFFFF] rounded-3xl border-none shadow-xl mx-1 gap-3'>
+		<div className='w-[255px] h-[729px] border bg-[#FFFFFF] rounded-3xl border-none shadow-xl mx-1 gap-3 flex flex-col items-center'>
 			<div className='flex flex-row items-center justify-around w-[200px] h-[69px] bg-[#E2E2FF] rounded-2xl'>
 				<img
 					className='rounded-full h-10 w-10'
@@ -22,7 +22,7 @@ const EmployeeList = () => {
 			{employeeList.map((_, index) => (
 				<div
 					key={index}
-					className='flex flex-row items-center justify-around w-[200px] h-[69px] bg-[#FFFFFF] rounded-2xl mb-3'
+					className='flex flex-row items-center justify-around w-[200px] h-[69px] bg-[#ECECF2] rounded-2xl mb-3 '
 				>
 					<img
 						className='rounded-full h-10 w-10'

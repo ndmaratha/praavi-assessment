@@ -4,7 +4,7 @@ const TopBar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className='flex flex-wrap w-full sm:flex-nowrap justify-between bg-[#00000014] items-center p-2'>
+		<div className='flex flex-wrap w-[1500px] sm:flex-nowrap justify-between bg-[#00000014] items-center p-2 '>
 			{/* Menu Button for Small Screens */}
 			<div className='sm:hidden'>
 				<button
